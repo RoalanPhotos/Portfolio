@@ -3371,7 +3371,7 @@
         a.is_mobile = !!b.isMobileRequest;
         a.is_tablet = (!!b.isMobileRequest || $.support.touch) && 768 <= window.screen.width && 1600 >= window.screen.width;
         var q = $.valueOrDefault(Va);
-        a.filter_permalink = $.support.touch && 'classic' == q;
+        a.filter_permalink = $.support.touch && 'snapshot' == q;
         a.plusone_api_src = b.plusOneApiSrc;
         a.pageType = b.pageType;
         a.postId = b.postId;
