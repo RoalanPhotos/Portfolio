@@ -5682,24 +5682,24 @@
     this.Yc = !0;
     sf(this)
   };
-  /*
+  
   function sf(a) {
     !a.Ad && a.Zc && a.Yc && (tf(a), $('html').click($.proxy(a.da, a)), $(window).resize($.proxy(a.$c, a)), setTimeout(function () {
       $(fa).removeClass('gadget-notifying')
     }, 5000), a.Ad = !0)
   }
-  */
+  
   K.da = function (a) {
     var b = $(a.target);
     if (b.closest('.gadget-selected .gadget-container').length) a.stopPropagation();
-     else {
+     else {/*
       var c = this.La;
       if (null != this.La) {
         var d = this.La,
         e = $(uf(d));
         e && ($(e).removeClass(Lb), $(fa).removeClass(Kb), $(oa).remove(), (d = this.i.gadgets() [d]) && d.hide());
         this.La = null
-      }
+      */}
       b = b.closest('.gadget-item');
       if (b.length) {
         a.stopPropagation();
