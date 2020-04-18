@@ -5688,7 +5688,6 @@
       $(fa).removeClass('gadget-notifying')
     }, 5000), a.Ad = !0)
   }
-  */
   K.da = function (a) {
     var b = $(a.target);
     if (b.closest('.gadget-selected .gadget-container').length) a.stopPropagation();
@@ -5723,6 +5722,7 @@
       }
     }
   };
+  */
   K.$c = function () {
     this.La && vf(this.La)
   };
