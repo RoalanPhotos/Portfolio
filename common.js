@@ -5656,7 +5656,6 @@
       this.i.filter(c, a)
     } else this.i.clearFilter()
   };
-  /*
   function qf() {
     this.Ad = this.Yc = this.Zc = !1;
     this.La = null
@@ -5664,10 +5663,9 @@
   K = qf.prototype;
   K.init = function (a, b) {
     this.i = a;
-    !this.i.settings.enableGadgets || this.i.settings.is_mobile || this.i.settings.headless || ($(this.i).bind('updated.gadgetdock', $.proxy(this.Za, this)), $(b).bind('loadcomplete.gadgetdock', $.proxy(this.$f, this)));
+    !this.i.settings.enableGadgets || this.i.settings.headless || ($(this.i).bind('updated.gadgetdock', $.proxy(this.Za, this)), $(b).bind('loadcomplete.gadgetdock', $.proxy(this.$f, this)));
     return this
   };
-  */
   K.dispose = function () {
     $(this.i).unbind('.gadgetdock');
     delete this.i
