@@ -5682,7 +5682,6 @@
     this.Yc = !0;
     sf(this)
   };
-  /*
   function sf(a) {
     !a.Ad && a.Zc && a.Yc && (tf(a), $('html').click($.proxy(a.da, a)), $(window).resize($.proxy(a.$c, a)), setTimeout(function () {
       $(fa).removeClass('gadget-notifying')
@@ -5722,7 +5721,6 @@
       }
     }
   };
-  */
   K.$c = function () {
     this.La && vf(this.La)
   };
