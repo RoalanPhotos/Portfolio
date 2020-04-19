@@ -4,7 +4,7 @@
   ca = '#editor-frame .editor-control',
   da = '#editor-frame .editor-editor',
   ea = '#editor-frame .template[data-template="',
-  fa = '#gadget-dock',
+  fa = '#pages',
   ha = '#lightbox',
   ja = '#nyanyanya',
   ka = '#overview',
