@@ -5665,7 +5665,7 @@
     this.i = a;
     !this.i.settings.enableGadgets || this.i.settings.headless || ($(this.i).bind('updated.gadgetdock', $.proxy(this.Za, this)), $(b).bind('loadcomplete.gadgetdock', $.proxy(this.$f, this)));
     return this
-  };
+  }; // gadgets will show in mobile view now
   K.dispose = function () {
     $(this.i).unbind('.gadgetdock');
     delete this.i
