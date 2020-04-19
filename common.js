@@ -4,7 +4,7 @@
   ca = '#editor-frame .editor-control',
   da = '#editor-frame .editor-editor',
   ea = '#editor-frame .template[data-template="',
-  fa = '#gadget-dock', // gadgets can be moved to another container
+  fa = '#views', // gadgets can be moved to another container
   ha = '#lightbox',
   ja = '#nyanyanya',
   ka = '#overview',
