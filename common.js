@@ -1,5 +1,5 @@
 (function () {
-  var aa = '"Helvetica Neue Light", HelveticaNeue-Light, "Helvetica Neue", Helvetica, Arial, sans-serif',
+  var aa = '"Open Sans", Molengo, "Walter Turncoat"',
   ba = '#editor-frame',
   ca = '#editor-frame .editor-control',
   da = '#editor-frame .editor-editor',
