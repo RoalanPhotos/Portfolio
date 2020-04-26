@@ -2703,7 +2703,7 @@
       var q = n.join('|');
       q && a('head').append(['<link href="https://fonts.googleapis.com/css?family=',
       q,
-      '" rel="preload" as="style" onload="this.rel='stylesheet'">'].join(''));
+      '" rel="stylesheet" type="text/css">'].join(''));
       k = [
       ]
     }
